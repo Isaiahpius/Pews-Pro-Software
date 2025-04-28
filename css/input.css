@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: plus_jakarta;
+    src: url(/fonts/plus_jakarta/PlusJakartaSans-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: plus_jakarta;
+    src: url(/fonts/plus_jakarta/PlusJakartaSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: plus_jakarta;
+    src: url(/fonts/plus_jakarta/PlusJakartaSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: plus_jakarta;
+    src: url(/fonts/plus_jakarta/PlusJakartaSans-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: plus_jakarta;
+    src: url(/fonts/plus_jakarta/PlusJakartaSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@import "tailwindcss";
+
+
+@theme {
+
+    --color-brand: #0098da;
+    --color-brand-50: #ffffff;
+    --color-brand-100: #4f46e5;
+    --color-brand-150: #fff4e1;
+    --color-brand-200: #1e293b;
+    --color-brand-250: #475569;
+    --color-brand-300: #eef2ff;
+    --color-brand-350: #fff1f2;
+    --color-brand-400: #f43f5e;
+    --color-brand-450: #f8fafc;
+    --color-brand-500: #cbd5e1;
+    --color-brand-550: #22c55e;
+    --color-brand-600: #da0000;
+    --color-brand-650: #00da5e;
+    --color-brand-700: #fcaf08;
+    --color-brand-750: #e5e2e2;
+    --color-brand-800: #c6cdd5;
+    --color-brand-850: #94a3bb;
+    --color-brand-900: #e2e8f0;
+    --color-brand-950: #d1d5db;
+    --color-brand-1000: #f9f9f9;
+
+
+    --spacing-623: 623px;
+    --spacing-502: 502px;
+    --spacing-540: 540px;
+    --spacing-586: 586px;
+    --spacing-480: 480px;
+    --spacing-463: 463px;
+    --spacing-424: 424.42px;
+    --spacing-422: 422px;
+    --spacing-862: 862px;
+    --spacing-965: 965px;
+    --spacing-96: 96px;
+    --spacing-906: 906px;
+    --spacing-198: 198.58px;
+    --spacing-1116: 1116px;
+    --spacing-117: 117px;
+    --spacing-342: 342px;
+
+
+    --container-696: 696px;
+    --container-660: 660px;
+    --container-684: 684px;
+    --container-542: 542px;
+    --container-308: 308px;
+    --container-351: 351px;
+    --container-1055: 1055px;
+    --container-1724: 1724px;
+
+
+    --text-64: 64px;
+    --text-80: 80px;
+
+
+    --tracking-1: -0.42px;
+    --tracking-2: -0.504px;
+
+    --font-plus_jakarta: plus_jakarta, sans-serif
+}
