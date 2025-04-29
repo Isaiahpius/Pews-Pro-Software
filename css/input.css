@@ -29,6 +29,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: nunito;
+    src: url(/fonts/Nunito/Nunito-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
 @import "tailwindcss";
 
 
@@ -92,5 +98,6 @@
     --tracking-1: -0.42px;
     --tracking-2: -0.504px;
 
-    --font-plus_jakarta: plus_jakarta, sans-serif
+    --font-plus_jakarta: plus_jakarta, sans-serif;
+    --font-nunito: nunito, sans-serif
 }
