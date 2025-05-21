@@ -35,6 +35,11 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: exotc350;
+    src: url(/fonts/Exotc350/Exotc350\ Bd\ BT\ Bold.ttf) format('truetype');
+}
+
 @import "tailwindcss";
 
 
@@ -61,10 +66,20 @@
     --color-brand-900: #e2e8f0;
     --color-brand-950: #d1d5db;
     --color-brand-1000: #f9f9f9;
+    --color-brand-1050: #909fb6;
+    --color-brand-1100: #be123c;
+    --color-brand-1150: #15803d;
+    --color-brand-1200: #b1b1b1;
+    --color-brand-1250: #f5f7fa;
+    --color-brand-1300: #7987ff;
+    --color-brand-1350: #312e81;
+    --color-brand-1400: #4f46e5;
+    --color-brand-1450: #64748b;
 
 
     --spacing-623: 623px;
     --spacing-502: 502px;
+    --spacing-592: 592px;
     --spacing-540: 540px;
     --spacing-586: 586px;
     --spacing-480: 480px;
@@ -74,20 +89,32 @@
     --spacing-862: 862px;
     --spacing-965: 965px;
     --spacing-96: 96px;
+    --spacing-68: 68px;
     --spacing-906: 906px;
     --spacing-198: 198.58px;
     --spacing-1116: 1116px;
+    --spacing-1543: 1543px;
     --spacing-117: 117px;
     --spacing-342: 342px;
+    --spacing-316: 316px;
 
 
     --container-696: 696px;
+    --container-656: 656px;
+    --container-616: 616px;
     --container-660: 660px;
     --container-684: 684px;
     --container-542: 542px;
+    --container-529: 529px;
+    --container-543: 543.45px;
     --container-308: 308px;
+    --container-312: 312px;
+    --container-320: 320px;
     --container-351: 351px;
+    --container-1336: 1336px;
+    --container-1304: 1304px;
     --container-1055: 1055px;
+    --container-1416: 1416px;
     --container-1724: 1724px;
 
 
@@ -99,5 +126,6 @@
     --tracking-2: -0.504px;
 
     --font-plus_jakarta: plus_jakarta, sans-serif;
-    --font-nunito: nunito, sans-serif
+    --font-nunito: nunito, sans-serif;
+    --font-exotc350: exotc350, sans-serif
 }
